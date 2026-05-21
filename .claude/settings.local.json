@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(start \"\" \"C:\\Users\\jochi\\Desktop\\implementacion bd\\index.html\")",
+      "Bash(dir:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(tasklist:*)",
+      "Bash(taskkill:*)",
+      "Bash(node:*)",
+      "Bash(timeout /t 2)",
+      "Bash(curl:*)",
+      "Bash(timeout:*)",
+      "Bash(ping:*)",
+      "Bash(nul)",
+      "Bash(restart_server.bat)",
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(start:*)",
+      "Bash(.restart_server.bat)",
+      "Bash(Get-Process -Name node -ErrorAction SilentlyContinue)",
+      "Bash(Stop-Process -Force)",
+      "Bash(powershell -Command:*)",
+      "Bash(cmd /c \"cd /d C:\\Users\\jochi\\Desktop\\implementacion bd && restart_server.bat\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
